@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For You</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        if (!localStorage.getItem('loggedIn')) {
+            window.location.href = 'login.html';
+        }
+    </script>
+</head>
+<body>
+    <header class="header">
+        <div class="heart"></div>
+        <h1>Para minha pitica</h1>
+        <p>Nossos Momentos</p>
+        <button class="version-switch" onclick="switchVersion('index2.html')">Versão Pitica ❤️</button>
+    </header>
+
+    <audio src="lisboa.mp3" controls style="width: 100%; border-radius: 15px; background-color: #f0f0f0;">
+        Seu navegador não suporta o elemento de áudio.
+    </audio>
+
+    <main>
+        <div class="gallery">
+            <div class="memory-card">
+                <div class="photo-container">
+                    <img src="1enc.jpg" alt="Nosso primeiro encontro">
+                </div>
+                <div class="memory-text">
+                    <h3>Nosso Primeiro Encontro</h3>
+                    <p>O famoso "demorou, mas chegou." Estava ansioso para te conhecer e te ver. Achei que não ia ter assunto e que ambos ficariam tímidos, porém isso não aconteceu. Conversamos normalmente, como se já nos conhecêssemos há tempos. É muito bom lembrar desse nosso primeiro contato um com o outro, não tem como esquecer o seu sorriso desse dia, quando a gente foi embora fiquei ansioso para proxima vez que a gente ia se ver...</p>
+                </div>
+            </div>
+            <div class="memory-card">
+                <div class="photo-container">
+                    <img src="com1.jpg">
+                </div>
+                <div class="memory-text">
+                    <h3>Nosso primeiro outback</h3>
+                    <p>No nosso primeiro encontro, já fomos direto para o Outback. Não esqueço de nós dois sem saber o que pedir quando o garçom veio nos atender kkkk. Confesso que estava bem nervoso na hora, mas isso passou rápido quando começamos a conversar, ainda mais enquanto comíamos, saindo de lá já fiquei imaginando a próxima vez que a gente ia se ver.</p>
+                </div>
+            </div>
+            <div class="memory-card">
+                <div class="photo-container">
+                    <img src="2seg.jpg" alt="O Filme">
+                </div>
+                <div class="memory-text">
+                    <h3>O filme</h3>
+                    <p>No nosso segundo encontro, fomos ao cinema e conseguimos ficar juntinhos. Foi em um período muito curto em relação ao primeiro encontro, então ali nos aproximamos ainda mais um do outro, saindo de um encontro já planejando o próximo.</p>
+                </div>
+            </div>
+            <div class="memory-card">
+                <div class="photo-container">
+                    <img src="3enc.jpg" alt="macarrão mano">
+                </div>
+                <div class="memory-text">
+                    <h3>O terceiro encontro</h3>
+                    <p>O terceiro encontro já havia se passado um bom tempo para gente se ver, estava com uma enorme saudades de você, nesse dia então finalmente ficamos a primeira vez, foi muito bom sair para bater perna e ficarmos juntos bebendo.</p>
+                </div>
+            </div>
+            <div class="memory-card">
+                <div class="photo-container">
+                    <img src="4enc.jpg" alt="Almoço">
+                </div>
+                <div class="memory-text">
+                    <h3>Os almoços</h3>
+                    <p>Atualmente sinto muita falta disso, ir almoçar com você todos os dias e ficarmos juntos conversando sobre a vida, era tão bom, até mesmo o dia que sem querer fiz você atrasar, a despedida sempre era a parte mais triste kkkk.</p>
+                </div>
+            </div>
+            <div class="memory-card">
+                <div class="photo-container">
+                    <img src="1flor.jpg" alt="Nosso amor">
+                </div>
+                <div class="memory-text">
+                    <h3>O Buquê </h3>
+                    <p>O meu primeiro buquê para você nesse dia, foi a melhor correria que fiz na minha vida para ver o seu sorriso e te ver feliz. Foi a melhor sensação do mundo te entregar o buquê e você segurando o choro, vendo que já nos encontrávamos um pelo outro. O seu sorriso desse dia não sai da minha mente.</p>
+                </div>
+            </div>
+            <div class="memory-card">
+                <div class="photo-container">
+                    <img src="you.jpg" alt="you">
+                </div>
+                <div class="memory-text">
+                    <h3>Sua felicidade</h3>
+                    <p>Para deixar claro para você, para mim, basta você estar feliz para que eu também fique feliz. Estou sempre me aprimorando ao longo do tempo e espero te fazer mais feliz a cada dia que passa. Confie em mim quando digo que farei de tudo por nós e vou me esforçar por nós.</p>
+                </div>
+            </div>
+            <div class="memory-card">
+                <div class="photo-container">
+                    <img src="nosdv.jpg" alt="Para sempre">
+                </div>
+                <div class="memory-text">
+                    <h3>Eu e Você</h3>
+                    <p>Como sempre falo para você e continuarei falando, você está mudando a minha vida para muito melhor. Fico animado ao ver o seu bom dia e o seu boa noite. Amo nossos momentos juntos e espero que isso nunca acabe. Eu te amo, vida. ❤️</p>
+                </div>
+            </div>
+            <div class="memory-card">
+                <div class="photo-container">
+                    <img src="nosrec.jpg" alt="you">
+                </div>
+                <div class="memory-text">
+                    <h3>Pequenos momentos</h3>
+                    <p>A nossa história continua e mesmo nos pequenos momentos damos um jeito de nos ver. Não importa se é 5 minutos ou 1 hora, o importante é estarmos juntos, independente de qual seja a situação.</p>
+                </div>
+            </div>
+            <div class="memory-card">
+                <div class="photo-container">
+                    <img src="eter.jpg" alt="you">
+                </div>
+                <div class="memory-text">
+                    <h3>Eternizar</h3>
+                    <p>Assim como você fez com a rosa, iremos fazer em nossa vida: eternizar todos os momentos, seja o mais simples que for, viver e aproveitar a cada minuto um ao lado do outro, eternizar o que sentimos um pelo outro.</p>
+                </div>
+            </div>
+            <div class="memory-card">
+                <div class="photo-container">
+                    <img src="1402.jpg" alt="you">
+                </div>
+                <div class="memory-text">
+                    <h3>Valentine's Day</h3>
+                    <p>Oi meu amor, sei que você pensa que esqueci dessa data, mas não. Apenas esperei o momento certo para te mandar isso, ou melhor, atualizar isso, nosso dia. Eu te amo muito, meu amor. Sei que, ao seu lado, não tem nada que eu não consiga lidar. Você é o que me motiva a continuar lutando todos os dias e a não me desanimar. Você é a pessoa que conseguiu mudar meus pensamentos e me ensinou o que de fato é amar. Não vamos deixar isso morrer e vamos cuidar para que sempre mantemos o que sentimos um pelo outro. A cada dia que passa, me sinto mais próximo de você, entendendo como você pensa e o que você sente. Sei quando algo te desanima ou quando fica chateada com algo, mas saiba que sempre vou cuidar para tirar um sorriso do seu rosto e sempre vou estar com você para tudo, independente da situação. Em breve, vamos estar juntos e cada vez prosperando mais, e nossa história ainda vai continuar sendo escrita (e registrada aqui kkk). Tudo que planejamos agora, colheremos em breve no futuro. Eu te amo, minha pitica. Só tenho a agradecer a Deus por ter você em minha vida. ❤️</p>
+                </div>
+            </div>
+            <div class="memory-card">
+                <div class="photo-container">
+                    <img src="lili.jpg" alt="you">
+                </div>
+                <div class="memory-text">
+                    <h3>A lili</h3>
+                    <p>A Lili marcou uma conquista para a gente, depois de tantas tentativas, chegou kkkk. O ursinho que eu estive te devendo desde o primeiro encontro, nesse mesmo dia passamos na loja do nosso primeiro encontro onde você comprou seus esmaltes. Eu fiquei olhando sem entender nada, mas admirando e rindo com você. Não esqueço da sua felicidade ao aproximar seu celular na máquina de pagar e falar 'oh, tô poderosa' . Eu ri e fiquei pensando na sorte que tive em te encontrar.</p>
+                </div>
+            </div>
+            <div class="memory-card">
+                <div class="photo-container">
+                    <img src="nos.jpg" alt="you">
+                </div>
+                <div class="memory-text">
+                    <h3>A vida</h3>
+                    <p>A vida está correndo, né? O que você está passando, eu entendo em todas as vertentes e não quero ser um peso para você; muito pelo contrário, quero ser a solução para seus problemas. Eu amo estar ao seu lado, você me faz ser uma pessoa melhor. Você me faz acordar com um propósito e mais feliz. Quero ser essa pessoa para você também, vida. Quero ser a pessoa que tira os seus problemas, cura suas dores e traumas. Quero viver ao seu lado para te ver crescer e prosperarmos juntinhos. Minha ambição não morre, meu sonho com você não sai da minha mente. Sei que está difícil, sei que dói, mas é nas dificuldades que vamos crescer. Não se cobre tanto. Sei que tem muitas responsabilidades para sua idade e você é a melhor para lidar com tudo isso. Deus só dá a cruz para quem consegue carregar, minha pitica, e você é essa pessoa. O caminho vai ser doloroso, sim, mas você não precisa passar por isso sozinha. Você não precisa ter medo de nada e muito menos de aceitar ajuda. Você já prova todos os dias que consegue se destacar em meio às dificuldades. Você é especial, amor. Não se preocupe tanto com seu futuro assim, pois sei que sua ambição por conquistas não desaparece. Entenda que o seu futuro é promissor, não deixe coisas externas te afetarem, ok? Eu te amo e sempre te amarei. Você simplesmente é minha pitica que faz o meu dia melhor e sempre vou tentar melhorar o seu também. Eu te amo, amor ❤️</p>
+                </div>
+            </div>
+            <div class="memory-card">
+                <div class="photo-container">
+                    <img src="açai.jpg" alt="you">
+                </div>
+                <div class="memory-text">
+                    <h3>O açai</h3>
+                    <p>O açaí foi algo simples, mas que animou o seu dia, e tudo que te anima me anima também. Saber que você está sorrindo e feliz durante tanto estresse me deixa mais tranquilo. Me preocupo com você, neném, me preocupo com sua saúde e seus sentimentos. Saiba que estou aqui para fazer o que for preciso para te ver bem e sorridente.</p>
+                </div>
+            </div>
+            <div class="memory-card">
+                <div class="photo-container">
+                    <img src="casa.png" alt="you">
+                </div>
+                <div class="memory-text">
+                    <h3>Nossa casa</h3>
+                    <p>Nossa casinha no futuro vai ser linda, vida. Do jeitinho que você já desenhou, pode ter certeza de que vamos conquistar. Eu amo falar do nosso futuro juntos, olhar os futuros imóveis da nossa casa, mesmo que ainda não tenhamos condições de levantar uma parede. Vamos batalhar e dar um passo de cada vez. Apenas não podemos ficar parados, nem ter medo de tentar. Nosso futuro vai ser muito promissor, minha vida, e ver o quanto você batalha para isso me dá orgulho. Você merece o mundo, minha princesa, e tenho certeza de que vai conquistar tudo o que quer. Vamos realizar nossos sonhos, e tenho certeza de que o seu dia será tão bom quanto o meu.</p>
+                </div>
+        </div>
+        <div class="memory-card">
+            <div class="photo-container">
+                <img src="presente.jpg" alt="you">
+            </div>
+            <div class="memory-text">
+                <h3>O presente</h3>
+                <p>O dia que tanto aguardei ansioso chegou. Desde que você mencionou que estava montando o presente, minha ansiedade só aumentou. Kkkkk. Meu amor, só tenho a agradecer a você. Acho que você não tem noção do quanto isso significou para mim. Eu amei e não consigo parar de olhar para o presente, vendo nossas fotos.
+
+                    Eu te amo, vida. Não encontro formas de retribuir. Apenas você consegue me fazer sentir mais capaz e mais feliz. Apenas você consegue aliviar o estresse que tenho no dia a dia. Você é perfeita, minha pitica. Eu te prometo que vamos realizar tudo o que foi escrito na carta, ter a nossa família e construir nossa casinha. Vamos ser um ótimo casal e nossos filhos terão muita sorte por terem uma mãe incrível como você, atenciosa, inteligente, bonita, carinhosa e com tantos outros adjetivos para te elogiar.
+                    
+                    Só tenho a agradecer por ter você, neném. Eu te amo muito, pitica.❤️
+                </p>
+            </div>
+    </div>
+    </main>
+
+    <footer>
+        <p>For You ❤️</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
